@@ -1,0 +1,225 @@
+body {background:#ffff}
+.box{
+	border: 1px;
+	width: 55%;
+	height: 2048px;
+	margin: 40px auto;
+	box-shadow: 0px 0px 10px 5px gray;
+	/*background-color: #b3b3b3;*/
+}
+/**.file{
+
+	color: black;
+	padding: 16px 32px;
+	margin-left: 30%;
+	margin-top: 5%;
+	text-align: center;
+	font-size: 16px;
+	float: left;
+	opacity: 0.8;
+	transition: 0.03s;
+	transition: inline-block;
+	text-decoration: none;
+	cursor: pointer;
+	border-color: transparent;
+	border-radius: 4px;
+}*/
+
+.button{					/* Data Collection button*/
+	background-color: #19bde6;
+	color: black;
+	padding: 16px 32px;
+	margin-left: 30%;
+	margin-top: 5%;
+	text-align: center;
+	font-size: 16px;
+	float: left;
+	opacity: 0.8;
+	transition: 0.03s;
+	transition: inline-block;
+	text-decoration: none;
+	cursor: pointer;
+	border-color: transparent;
+	border-radius: 4px;
+
+}
+
+.button:hover{opacity: 1;
+	background-color: #39aac6;
+}
+
+.btn{				/*Preview Video button*/
+	background-color: #19bde6;
+	color: black;
+	padding: 16px 32px;
+	margin-left: 5%;
+	margin-top: 5%;
+	text-align: center;
+	font-size: 16px;
+	float: left;
+	opacity: 0.8;
+	transition: 0.03s;
+	transition: inline-block;
+	text-decoration: none;
+	cursor: pointer;
+	border-color: transparent;
+	border-radius: 4px;
+}
+.btn:hover{opacity: 1;
+	background-color: #39aac6;
+}
+.info{
+	background-color: #f2f2f2;
+	margin-top: 12%;
+	/*margin-left: 2%;
+	margin-right: 2%;*/
+	padding: 16px 32px;
+	border-radius: 4px;
+	font-size: 18px;
+	
+}
+
+#text1{
+	width: 150px;
+	font-size: 15px;
+	border-color: transparent;
+
+}
+.sec{
+	border-style: solid;
+	border-color: black;
+}
+.Quick{
+	background-color: white;
+	margin-top: 2%;
+	margin-left: 2%;
+	border-radius: 4px;
+
+
+}
+head{
+	font-size: 18px;
+}
+h3{
+	margin-left: 38%;
+}
+.fwd {
+    background-color: #19bde6;
+    border: none;
+    color: black;
+    padding: 12px 16px;
+    font-size: 16px;
+    cursor: pointer;
+}
+/* Darker background on mouse-over */
+.fwd:hover {
+    background-color: #39aac6;
+}
+.bck {
+    background-color: #19bde6;
+    border: none;
+    color: black;
+    padding: 12px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 18%;
+    margin-bottom: 2%;
+}
+
+/* Darker background on mouse-over */
+.bck:hover {
+    background-color: #39aac6;
+}
+.rst {
+    background-color: #19bde6;
+    border: none;
+    color: black;
+    padding: 12px 16px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Darker background on mouse-over */
+.rst:hover {
+    background-color: #39aac6;
+}
+.frm {
+    background-color: #19bde6;
+    border: none;
+    color: black;
+    padding: 12px 16px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Darker background on mouse-over */
+.frm:hover {
+    background-color: #39aac6;
+}
+.media{
+	background-color: #f2f2f2;
+}
+h1{
+	margin-left: 38%;
+	margin-top: 0%;
+}
+.H3{
+	margin-left: 42%;
+}
+.sback{
+	background-color: #19bde6;
+    border: none;
+    color: black;
+    padding: 12px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 25%;
+    margin-bottom: 3%;
+}
+.sback:hover{
+    background-color: #39aac6;
+}
+.frame{
+	background-color: #19bde6;
+    border: none;
+    color: black;
+    padding: 12px 16px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.frame:hover{
+	background-color: #39aac6;
+}
+.sfwd{
+	background-color: #19bde6;
+    border: none;
+    color: black;
+    padding: 12px 16px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.sfwd:hover{
+	background-color: #39aac6;
+}
+.column {
+    float: left;
+    width: 48%;
+    box-sizing: border-box;
+    padding: 10px;
+    height: 300px; 
+    /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.column1{
+	 float: right;
+    width: 45%;
+    box-sizing: border-box;
+    padding: 10px;
+    height: 300px;
+}

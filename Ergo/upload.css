@@ -1,0 +1,74 @@
+body {background:#ffff}
+.box{
+	border: 1px;
+	width: 55%;
+	height: 780px;
+	margin: 40px auto;
+	box-shadow: 0px 0px 10px 5px gray;
+	/*background-color: #b3b3b3;*/
+}
+.choose{
+	background-color: #19bde6;
+	color: black;
+	padding: 16px 32px;
+	margin-left: 30%;
+	margin-top: 5%;
+	text-align: center;
+	font-size: 16px;
+	float: left;
+	opacity: 0.8;
+	transition: 0.03s;
+	transition: inline-block;
+	text-decoration: none;
+	cursor: pointer;
+	border-color: transparent;
+	border-radius: 4px;
+
+}
+.submit{
+	background-color: #19bde6;
+	color: black;
+	padding: 16px 32px;
+	margin-left: 40%;
+	margin-top: 15%;
+	text-align: center;
+	font-size: 16px;
+	float: left;
+	text-decoration: none;
+	cursor: pointer;
+	border-color: transparent;
+	border-radius: 4px;
+
+
+}
+.play{
+	background-color: #19bde6;
+	color: black;
+	padding: 16px 32px;
+	margin-left: 40%;
+	margin-top: 1%;
+	text-align: center;
+	font-size: 16px;
+	float: left;
+	text-decoration: none;
+	cursor: pointer;
+	border-color: transparent;
+	border-radius: 4px;
+
+}
+video, input {
+    display: block;
+}
+
+input {
+    width: 100%;       
+}
+
+.info {
+    background-color: aqua;            
+}
+
+.error {
+    background-color: red;
+    color: white;
+}
